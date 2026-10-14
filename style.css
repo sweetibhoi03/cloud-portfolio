@@ -1,0 +1,141 @@
+```css
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Times New Roman, sans-serif;
+    background-color: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #14213d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Home Section */
+.hero {
+    background: linear-gradient(135deg, #dbeafe, #e0e7ff);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #14213d;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #023e8a;
+}
+
+/* General Sections */
+section:not(.hero) {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #14213d;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+section p {
+    max-width: 750px;
+    margin: 10px auto;
+}
+
+/* Cards */
+.card {
+    background-color: white;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.skills-container span {
+    background-color: #14213d;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 25px;
+}
+
+/* Footer */
+footer {
+    background-color: #14213d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    .hero {
+        padding: 70px 15px;
+    }
+}
+```
